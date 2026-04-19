@@ -46,3 +46,4 @@ OPTIONS
 
 📝 Copyright © 2024 [tooniez](https://github.com/tooniez). <br />
 This project is [MIT](https://github.com/tooniez/vuejs-typescript-cypress/blob/main/LICENSE) licensed.
+# Triage fix for issue #12
