@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled sorted 
+0a11ef797e70dceac78c1b7d7f3f127445a1be0f refs/heads/feat/issue-1-triage
+123af1521fc10934ae0346ec3c255012ca7a5aca refs/heads/main
+f357ba1824cde06ed80350a4cf8186a5c2176264 refs/heads/scan-main
+0a11ef797e70dceac78c1b7d7f3f127445a1be0f refs/pull/2/head
+196cd0f3904a98c7ac172f146e0605c3c17c2f64 refs/pull/2/merge

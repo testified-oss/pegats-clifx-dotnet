@@ -1,0 +1,8 @@
+# pack-refs with: peeled fully-peeled sorted 
+89918dd461de9be0cd875ffd8d542b9046923d7a refs/heads/fix/issue-6-triage
+bf7fda6726bd968eaeee97bc423872c4a3683539 refs/heads/main
+a660b23362b62eececbaf0e7a3d3b23f887b911c refs/pull/1/head
+6c2107e5a129834610d1202467115827c55c5562 refs/pull/2/head
+c9b85f424bc87f5b149fb844e474e716522b29c7 refs/pull/3/head
+adac93981a09b598977d7e1aa7eef31882c93574 refs/pull/4/head
+8b99742e092b78ba0c1f82ecaa98cd1291f23002 refs/pull/5/head

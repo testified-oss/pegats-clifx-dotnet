@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Docker
+        uses: docker/setup-buildx-action@v2
+      
+      - name: Test with Docker Compose
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          docker-compose -f docker-compose.yml up -d
+          sleep 30
+          docker-compose -f docker-compose.yml logs k6
+          docker-compose -f docker-compose.yml down

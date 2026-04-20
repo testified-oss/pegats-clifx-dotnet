@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/testified-oss/dotnet-wiremock.git
+	tagOpt = --no-tags
+	fetch = +refs/*:refs/*
+	mirror = true
+[branch "fix/issue-7-dotnet-format-arg"]
+	remote = origin
+	merge = refs/heads/main
